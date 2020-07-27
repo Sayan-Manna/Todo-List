@@ -12,6 +12,13 @@ body {
 
 }
 
+h1 {
+    position: fixed;
+    top: 98px;
+    left: 570px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e94b1f, 0 0 20px #e94b1f, 0 0 25px #e94b1f, 0 0 30px #e94b1f, 0 0 35px #e94b1f;
+}
+
 header {
     font-size: 1.0rem;
 
@@ -121,10 +128,9 @@ select {
 
 select {
     color: #ff6f47;
-    width: 10rem;
+    width: 6rem;
     cursor: pointer;
     padding: 0.6rem;
-
 }
 
 .select::after {
